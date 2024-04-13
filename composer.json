@@ -15,7 +15,11 @@
     },
     "autoload": {
         "psr-4": {
-            "zorzi23\\phzasync\\": "src/"
+            "zorzi23\\phzasync\\": "src/",
+            "Async\\": "src/Async/",
+            "FileReader\\": "src/FileReader/",
+            "Http\\": "src/Http/",
+            "Serializer\\": "src/Serializer/"
         }
     },
     "minimum-stability": "dev",

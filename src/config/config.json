@@ -1,0 +1,5 @@
+{
+    "ignoreUserAbort": true,
+    "maxExecutionTime": 30,
+    "asyncEndpointDir": "http://localhost/async/"
+}

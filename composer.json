@@ -1,0 +1,29 @@
+{
+    "name": "zorzi23/phzasync",
+    "description": "A lightweight PHP library for simulating asynchronous I/O operations using HTTP, purely native, allowing execution of code similar to JavaScript's asynchronous behavior.",
+    "type": "library",
+    "keywords": ["biblioteca", "lib", "async", "multi", "http", "io", "native"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gustavo Henrique Zorzi Arruda Pereira",
+            "email": "gustavozorzi2003@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "zorzi23\\phzasync\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}

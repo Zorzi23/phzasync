@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_async_1_1_task" xml:lang="en-US">
+<title>Task Class Reference</title>
+<indexterm><primary>Task</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_async_1_1_task_1a303f7e8829ff243d4208dc29ef57b11f">__construct</link> (\Closure $fnExecution)</para>
+</listitem>
+            <listitem><para><link linkend="_class_async_1_1_task_1a2e246d2e525637f18c5cc8a294c38b18">getFnExecution</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_async_1_1_task_1a7aa02807a63d961bbbbfe98523fad652">setFnExecution</link> (\Closure $fnExecution)</para>
+</listitem>
+            <listitem><para><link linkend="_class_async_1_1_task_1af15bc7e2f143b1c567b0cab96d8c57b2">call</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_async_1_1_task_1a303f7e8829ff243d4208dc29ef57b11f"/><section>
+    <title>__construct()</title>
+<indexterm><primary>__construct</primary><secondary>Task</secondary></indexterm>
+<indexterm><primary>Task</primary><secondary>__construct</secondary></indexterm>
+<para><computeroutput>__construct (\Closure $fnExecution)</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>$this </para>
+</formalpara>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_async_1_1_task_1af15bc7e2f143b1c567b0cab96d8c57b2"/><section>
+    <title>call()</title>
+<indexterm><primary>call</primary><secondary>Task</secondary></indexterm>
+<indexterm><primary>Task</primary><secondary>call</secondary></indexterm>
+<para><computeroutput>call ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>mixed </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_async_1_1_task_1a2e246d2e525637f18c5cc8a294c38b18"/><section>
+    <title>getFnExecution()</title>
+<indexterm><primary>getFnExecution</primary><secondary>Task</secondary></indexterm>
+<indexterm><primary>Task</primary><secondary>getFnExecution</secondary></indexterm>
+<para><computeroutput>getFnExecution ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>Closure </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_async_1_1_task_1a7aa02807a63d961bbbbfe98523fad652"/><section>
+    <title>setFnExecution()</title>
+<indexterm><primary>setFnExecution</primary><secondary>Task</secondary></indexterm>
+<indexterm><primary>Task</primary><secondary>setFnExecution</secondary></indexterm>
+<para><computeroutput>setFnExecution (\Closure $fnExecution)</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>$this </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/xampp/htdocs/async/phzasync/src/Async/<link linkend="__task_8php">Task.php</link></section>
+</section>

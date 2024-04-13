@@ -1,0 +1,424 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_http_1_1_http_request" xml:lang="en-US">
+<title>HttpRequest Class Reference</title>
+<indexterm><primary>HttpRequest</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_http_1_1_http_request_1a20a487da495ed4b5de88d4962365aea9">__construct</link> ($sUrl, $sMethod)</para>
+</listitem>
+            <listitem><para><link linkend="_class_http_1_1_http_request_1accd14bda49a1044b4d8dd93f020f11ee">getUrl</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_http_1_1_http_request_1a9da64edd3721292abd89aa0963e9fb55">setUrl</link> ($sUrl)</para>
+</listitem>
+            <listitem><para><link linkend="_class_http_1_1_http_request_1af3e37e1a6ed9b8c87f86f659873a83b7">getMethod</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_http_1_1_http_request_1aacbb50b42747880fa707e82014f72db2">setMethod</link> ($sMethod)</para>
+</listitem>
+            <listitem><para><link linkend="_class_http_1_1_http_request_1a157e0005d82edaa21cbea07fdc5c62da">getHeaders</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_http_1_1_http_request_1a5a276d8402978d37885714acf42daf11">getTreatedHeaders</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_http_1_1_http_request_1a3f7685fa242dd833041bf7dd693cf2fb">setHeaders</link> ($aHeaders)</para>
+</listitem>
+            <listitem><para><link linkend="_class_http_1_1_http_request_1a17c6102fe8748ed9904836c23ccc42d7">addHeader</link> (<link linkend="_class_http_1_1_http_header">HttpHeader</link> $oHeader)</para>
+</listitem>
+            <listitem><para><link linkend="_class_http_1_1_http_request_1a81a67162a6288d78fc4c55283325f0b4">getData</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_http_1_1_http_request_1abbf4faaf2c81cfe72e93faadf4e14bcd">setData</link> ($aData)</para>
+</listitem>
+            <listitem><para><link linkend="_class_http_1_1_http_request_1a83fa0c1ac93a99b51a2bfd0d716aca0a">addData</link> ($xData, $sKey=null)</para>
+</listitem>
+            <listitem><para><link linkend="_class_http_1_1_http_request_1abac5019c5daf3a27d739aa3a249fdb31">getTimeout</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_http_1_1_http_request_1a8475f2caf5edac3bf75cb9bde38517f9">setTimeout</link> ($iTimeout)</para>
+</listitem>
+            <listitem><para><link linkend="_class_http_1_1_http_request_1ae48cc10bd727774bb36203986ce3b176">fetch</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_http_1_1_http_request_1a20a487da495ed4b5de88d4962365aea9"/><section>
+    <title>__construct()</title>
+<indexterm><primary>__construct</primary><secondary>HttpRequest</secondary></indexterm>
+<indexterm><primary>HttpRequest</primary><secondary>__construct</secondary></indexterm>
+<para><computeroutput>__construct ( $sUrl,  $sMethod)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>string</entry><entry>$sUrl</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+<entry>string</entry><entry>$sMethod</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>$this </para>
+</formalpara>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_http_1_1_http_request_1a83fa0c1ac93a99b51a2bfd0d716aca0a"/><section>
+    <title>addData()</title>
+<indexterm><primary>addData</primary><secondary>HttpRequest</secondary></indexterm>
+<indexterm><primary>HttpRequest</primary><secondary>addData</secondary></indexterm>
+<para><computeroutput>addData ( $xData,  $sKey = <computeroutput>null</computeroutput>
+)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>mixed</entry><entry>$xData</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>$this </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_http_1_1_http_request_1a17c6102fe8748ed9904836c23ccc42d7"/><section>
+    <title>addHeader()</title>
+<indexterm><primary>addHeader</primary><secondary>HttpRequest</secondary></indexterm>
+<indexterm><primary>HttpRequest</primary><secondary>addHeader</secondary></indexterm>
+<para><computeroutput>addHeader (<link linkend="_class_http_1_1_http_header">HttpHeader</link> $oHeader)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>HttpHeader</entry><entry>$oHeader</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>$this </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_http_1_1_http_request_1ae48cc10bd727774bb36203986ce3b176"/><section>
+    <title>fetch()</title>
+<indexterm><primary>fetch</primary><secondary>HttpRequest</secondary></indexterm>
+<indexterm><primary>HttpRequest</primary><secondary>fetch</secondary></indexterm>
+<para><computeroutput>fetch ( )</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Exceptions</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry></entry>
+<entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                Exception <formalpara><title>Returns</title>
+
+<para>string|false </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_http_1_1_http_request_1a81a67162a6288d78fc4c55283325f0b4"/><section>
+    <title>getData()</title>
+<indexterm><primary>getData</primary><secondary>HttpRequest</secondary></indexterm>
+<indexterm><primary>HttpRequest</primary><secondary>getData</secondary></indexterm>
+<para><computeroutput>getData ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>mixed[] </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_http_1_1_http_request_1a157e0005d82edaa21cbea07fdc5c62da"/><section>
+    <title>getHeaders()</title>
+<indexterm><primary>getHeaders</primary><secondary>HttpRequest</secondary></indexterm>
+<indexterm><primary>HttpRequest</primary><secondary>getHeaders</secondary></indexterm>
+<para><computeroutput>getHeaders ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>HttpHeader[] </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_http_1_1_http_request_1af3e37e1a6ed9b8c87f86f659873a83b7"/><section>
+    <title>getMethod()</title>
+<indexterm><primary>getMethod</primary><secondary>HttpRequest</secondary></indexterm>
+<indexterm><primary>HttpRequest</primary><secondary>getMethod</secondary></indexterm>
+<para><computeroutput>getMethod ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>string </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_http_1_1_http_request_1abac5019c5daf3a27d739aa3a249fdb31"/><section>
+    <title>getTimeout()</title>
+<indexterm><primary>getTimeout</primary><secondary>HttpRequest</secondary></indexterm>
+<indexterm><primary>HttpRequest</primary><secondary>getTimeout</secondary></indexterm>
+<para><computeroutput>getTimeout ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>int </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_http_1_1_http_request_1a5a276d8402978d37885714acf42daf11"/><section>
+    <title>getTreatedHeaders()</title>
+<indexterm><primary>getTreatedHeaders</primary><secondary>HttpRequest</secondary></indexterm>
+<indexterm><primary>HttpRequest</primary><secondary>getTreatedHeaders</secondary></indexterm>
+<para><computeroutput>getTreatedHeaders ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>string[] </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_http_1_1_http_request_1accd14bda49a1044b4d8dd93f020f11ee"/><section>
+    <title>getUrl()</title>
+<indexterm><primary>getUrl</primary><secondary>HttpRequest</secondary></indexterm>
+<indexterm><primary>HttpRequest</primary><secondary>getUrl</secondary></indexterm>
+<para><computeroutput>getUrl ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>string </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_http_1_1_http_request_1abbf4faaf2c81cfe72e93faadf4e14bcd"/><section>
+    <title>setData()</title>
+<indexterm><primary>setData</primary><secondary>HttpRequest</secondary></indexterm>
+<indexterm><primary>HttpRequest</primary><secondary>setData</secondary></indexterm>
+<para><computeroutput>setData ( $aData)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>mixed[]</entry><entry>$aData</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>$this </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_http_1_1_http_request_1a3f7685fa242dd833041bf7dd693cf2fb"/><section>
+    <title>setHeaders()</title>
+<indexterm><primary>setHeaders</primary><secondary>HttpRequest</secondary></indexterm>
+<indexterm><primary>HttpRequest</primary><secondary>setHeaders</secondary></indexterm>
+<para><computeroutput>setHeaders ( $aHeaders)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>HttpHeader[]</entry><entry>$aHeaders</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>$this </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_http_1_1_http_request_1aacbb50b42747880fa707e82014f72db2"/><section>
+    <title>setMethod()</title>
+<indexterm><primary>setMethod</primary><secondary>HttpRequest</secondary></indexterm>
+<indexterm><primary>HttpRequest</primary><secondary>setMethod</secondary></indexterm>
+<para><computeroutput>setMethod ( $sMethod)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>string</entry><entry>$sMethod</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>$this </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_http_1_1_http_request_1a8475f2caf5edac3bf75cb9bde38517f9"/><section>
+    <title>setTimeout()</title>
+<indexterm><primary>setTimeout</primary><secondary>HttpRequest</secondary></indexterm>
+<indexterm><primary>HttpRequest</primary><secondary>setTimeout</secondary></indexterm>
+<para><computeroutput>setTimeout ( $iTimeout)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>int</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>$this </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_http_1_1_http_request_1a9da64edd3721292abd89aa0963e9fb55"/><section>
+    <title>setUrl()</title>
+<indexterm><primary>setUrl</primary><secondary>HttpRequest</secondary></indexterm>
+<indexterm><primary>HttpRequest</primary><secondary>setUrl</secondary></indexterm>
+<para><computeroutput>setUrl ( $sUrl)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Exceptions</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry></entry>
+<entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                Exception 
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>string</entry><entry>$sUrl</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>$this </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/xampp/htdocs/async/phzasync/src/Http/<link linkend="__http_request_8php">HttpRequest.php</link></section>
+</section>

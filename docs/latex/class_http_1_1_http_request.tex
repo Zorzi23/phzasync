@@ -1,0 +1,233 @@
+\doxysection{Http\+Request Class Reference}
+\hypertarget{class_http_1_1_http_request}{}\label{class_http_1_1_http_request}\index{HttpRequest@{HttpRequest}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_http_1_1_http_request_a20a487da495ed4b5de88d4962365aea9}{\+\_\+\+\_\+construct}} (\$s\+Url, \$s\+Method)
+\item 
+\mbox{\hyperlink{class_http_1_1_http_request_accd14bda49a1044b4d8dd93f020f11ee}{get\+Url}} ()
+\item 
+\mbox{\hyperlink{class_http_1_1_http_request_a9da64edd3721292abd89aa0963e9fb55}{set\+Url}} (\$s\+Url)
+\item 
+\mbox{\hyperlink{class_http_1_1_http_request_af3e37e1a6ed9b8c87f86f659873a83b7}{get\+Method}} ()
+\item 
+\mbox{\hyperlink{class_http_1_1_http_request_aacbb50b42747880fa707e82014f72db2}{set\+Method}} (\$s\+Method)
+\item 
+\mbox{\hyperlink{class_http_1_1_http_request_a157e0005d82edaa21cbea07fdc5c62da}{get\+Headers}} ()
+\item 
+\mbox{\hyperlink{class_http_1_1_http_request_a5a276d8402978d37885714acf42daf11}{get\+Treated\+Headers}} ()
+\item 
+\mbox{\hyperlink{class_http_1_1_http_request_a3f7685fa242dd833041bf7dd693cf2fb}{set\+Headers}} (\$a\+Headers)
+\item 
+\mbox{\hyperlink{class_http_1_1_http_request_a17c6102fe8748ed9904836c23ccc42d7}{add\+Header}} (\mbox{\hyperlink{class_http_1_1_http_header}{Http\+Header}} \$o\+Header)
+\item 
+\mbox{\hyperlink{class_http_1_1_http_request_a81a67162a6288d78fc4c55283325f0b4}{get\+Data}} ()
+\item 
+\mbox{\hyperlink{class_http_1_1_http_request_abbf4faaf2c81cfe72e93faadf4e14bcd}{set\+Data}} (\$a\+Data)
+\item 
+\mbox{\hyperlink{class_http_1_1_http_request_a83fa0c1ac93a99b51a2bfd0d716aca0a}{add\+Data}} (\$x\+Data, \$s\+Key=null)
+\item 
+\mbox{\hyperlink{class_http_1_1_http_request_abac5019c5daf3a27d739aa3a249fdb31}{get\+Timeout}} ()
+\item 
+\mbox{\hyperlink{class_http_1_1_http_request_a8475f2caf5edac3bf75cb9bde38517f9}{set\+Timeout}} (\$i\+Timeout)
+\item 
+\mbox{\hyperlink{class_http_1_1_http_request_ae48cc10bd727774bb36203986ce3b176}{fetch}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_http_1_1_http_request_a20a487da495ed4b5de88d4962365aea9}\label{class_http_1_1_http_request_a20a487da495ed4b5de88d4962365aea9} 
+\index{HttpRequest@{HttpRequest}!\_\_construct@{\_\_construct}}
+\index{\_\_construct@{\_\_construct}!HttpRequest@{HttpRequest}}
+\doxysubsubsection{\texorpdfstring{\_\_construct()}{\_\_construct()}}
+{\footnotesize\ttfamily \+\_\+\+\_\+construct (\begin{DoxyParamCaption}\item[{}]{\$s\+Url,  }\item[{}]{\$s\+Method }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$s\+Url} & \\
+\hline
+string & {\em \$s\+Method} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_http_1_1_http_request_a83fa0c1ac93a99b51a2bfd0d716aca0a}\label{class_http_1_1_http_request_a83fa0c1ac93a99b51a2bfd0d716aca0a} 
+\index{HttpRequest@{HttpRequest}!addData@{addData}}
+\index{addData@{addData}!HttpRequest@{HttpRequest}}
+\doxysubsubsection{\texorpdfstring{addData()}{addData()}}
+{\footnotesize\ttfamily add\+Data (\begin{DoxyParamCaption}\item[{}]{\$x\+Data,  }\item[{}]{\$s\+Key = {\ttfamily null} }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$x\+Data} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\Hypertarget{class_http_1_1_http_request_a17c6102fe8748ed9904836c23ccc42d7}\label{class_http_1_1_http_request_a17c6102fe8748ed9904836c23ccc42d7} 
+\index{HttpRequest@{HttpRequest}!addHeader@{addHeader}}
+\index{addHeader@{addHeader}!HttpRequest@{HttpRequest}}
+\doxysubsubsection{\texorpdfstring{addHeader()}{addHeader()}}
+{\footnotesize\ttfamily add\+Header (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_http_1_1_http_header}{Http\+Header}}}]{\$o\+Header }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}[1]{Parameters}
+Http\+Header & {\em \$o\+Header} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\Hypertarget{class_http_1_1_http_request_ae48cc10bd727774bb36203986ce3b176}\label{class_http_1_1_http_request_ae48cc10bd727774bb36203986ce3b176} 
+\index{HttpRequest@{HttpRequest}!fetch@{fetch}}
+\index{fetch@{fetch}!HttpRequest@{HttpRequest}}
+\doxysubsubsection{\texorpdfstring{fetch()}{fetch()}}
+{\footnotesize\ttfamily fetch (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Exception \begin{DoxyReturn}{Returns}
+string\texorpdfstring{$\vert$}{|}false 
+\end{DoxyReturn}
+\Hypertarget{class_http_1_1_http_request_a81a67162a6288d78fc4c55283325f0b4}\label{class_http_1_1_http_request_a81a67162a6288d78fc4c55283325f0b4} 
+\index{HttpRequest@{HttpRequest}!getData@{getData}}
+\index{getData@{getData}!HttpRequest@{HttpRequest}}
+\doxysubsubsection{\texorpdfstring{getData()}{getData()}}
+{\footnotesize\ttfamily get\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+mixed\mbox{[}\mbox{]} 
+\end{DoxyReturn}
+\Hypertarget{class_http_1_1_http_request_a157e0005d82edaa21cbea07fdc5c62da}\label{class_http_1_1_http_request_a157e0005d82edaa21cbea07fdc5c62da} 
+\index{HttpRequest@{HttpRequest}!getHeaders@{getHeaders}}
+\index{getHeaders@{getHeaders}!HttpRequest@{HttpRequest}}
+\doxysubsubsection{\texorpdfstring{getHeaders()}{getHeaders()}}
+{\footnotesize\ttfamily get\+Headers (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Http\+Header\mbox{[}\mbox{]} 
+\end{DoxyReturn}
+\Hypertarget{class_http_1_1_http_request_af3e37e1a6ed9b8c87f86f659873a83b7}\label{class_http_1_1_http_request_af3e37e1a6ed9b8c87f86f659873a83b7} 
+\index{HttpRequest@{HttpRequest}!getMethod@{getMethod}}
+\index{getMethod@{getMethod}!HttpRequest@{HttpRequest}}
+\doxysubsubsection{\texorpdfstring{getMethod()}{getMethod()}}
+{\footnotesize\ttfamily get\+Method (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{class_http_1_1_http_request_abac5019c5daf3a27d739aa3a249fdb31}\label{class_http_1_1_http_request_abac5019c5daf3a27d739aa3a249fdb31} 
+\index{HttpRequest@{HttpRequest}!getTimeout@{getTimeout}}
+\index{getTimeout@{getTimeout}!HttpRequest@{HttpRequest}}
+\doxysubsubsection{\texorpdfstring{getTimeout()}{getTimeout()}}
+{\footnotesize\ttfamily get\+Timeout (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\Hypertarget{class_http_1_1_http_request_a5a276d8402978d37885714acf42daf11}\label{class_http_1_1_http_request_a5a276d8402978d37885714acf42daf11} 
+\index{HttpRequest@{HttpRequest}!getTreatedHeaders@{getTreatedHeaders}}
+\index{getTreatedHeaders@{getTreatedHeaders}!HttpRequest@{HttpRequest}}
+\doxysubsubsection{\texorpdfstring{getTreatedHeaders()}{getTreatedHeaders()}}
+{\footnotesize\ttfamily get\+Treated\+Headers (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+string\mbox{[}\mbox{]} 
+\end{DoxyReturn}
+\Hypertarget{class_http_1_1_http_request_accd14bda49a1044b4d8dd93f020f11ee}\label{class_http_1_1_http_request_accd14bda49a1044b4d8dd93f020f11ee} 
+\index{HttpRequest@{HttpRequest}!getUrl@{getUrl}}
+\index{getUrl@{getUrl}!HttpRequest@{HttpRequest}}
+\doxysubsubsection{\texorpdfstring{getUrl()}{getUrl()}}
+{\footnotesize\ttfamily get\+Url (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{class_http_1_1_http_request_abbf4faaf2c81cfe72e93faadf4e14bcd}\label{class_http_1_1_http_request_abbf4faaf2c81cfe72e93faadf4e14bcd} 
+\index{HttpRequest@{HttpRequest}!setData@{setData}}
+\index{setData@{setData}!HttpRequest@{HttpRequest}}
+\doxysubsubsection{\texorpdfstring{setData()}{setData()}}
+{\footnotesize\ttfamily set\+Data (\begin{DoxyParamCaption}\item[{}]{\$a\+Data }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed\mbox{[}$\,$\mbox{]} & {\em \$a\+Data} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\Hypertarget{class_http_1_1_http_request_a3f7685fa242dd833041bf7dd693cf2fb}\label{class_http_1_1_http_request_a3f7685fa242dd833041bf7dd693cf2fb} 
+\index{HttpRequest@{HttpRequest}!setHeaders@{setHeaders}}
+\index{setHeaders@{setHeaders}!HttpRequest@{HttpRequest}}
+\doxysubsubsection{\texorpdfstring{setHeaders()}{setHeaders()}}
+{\footnotesize\ttfamily set\+Headers (\begin{DoxyParamCaption}\item[{}]{\$a\+Headers }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}[1]{Parameters}
+Http\+Header\mbox{[}$\,$\mbox{]} & {\em \$a\+Headers} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\Hypertarget{class_http_1_1_http_request_aacbb50b42747880fa707e82014f72db2}\label{class_http_1_1_http_request_aacbb50b42747880fa707e82014f72db2} 
+\index{HttpRequest@{HttpRequest}!setMethod@{setMethod}}
+\index{setMethod@{setMethod}!HttpRequest@{HttpRequest}}
+\doxysubsubsection{\texorpdfstring{setMethod()}{setMethod()}}
+{\footnotesize\ttfamily set\+Method (\begin{DoxyParamCaption}\item[{}]{\$s\+Method }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$s\+Method} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\Hypertarget{class_http_1_1_http_request_a8475f2caf5edac3bf75cb9bde38517f9}\label{class_http_1_1_http_request_a8475f2caf5edac3bf75cb9bde38517f9} 
+\index{HttpRequest@{HttpRequest}!setTimeout@{setTimeout}}
+\index{setTimeout@{setTimeout}!HttpRequest@{HttpRequest}}
+\doxysubsubsection{\texorpdfstring{setTimeout()}{setTimeout()}}
+{\footnotesize\ttfamily set\+Timeout (\begin{DoxyParamCaption}\item[{}]{\$i\+Timeout }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\Hypertarget{class_http_1_1_http_request_a9da64edd3721292abd89aa0963e9fb55}\label{class_http_1_1_http_request_a9da64edd3721292abd89aa0963e9fb55} 
+\index{HttpRequest@{HttpRequest}!setUrl@{setUrl}}
+\index{setUrl@{setUrl}!HttpRequest@{HttpRequest}}
+\doxysubsubsection{\texorpdfstring{setUrl()}{setUrl()}}
+{\footnotesize\ttfamily set\+Url (\begin{DoxyParamCaption}\item[{}]{\$s\+Url }\end{DoxyParamCaption})}
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+Exception 
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$s\+Url} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/xampp/htdocs/async/phzasync/src/\+Http/\mbox{\hyperlink{_http_request_8php}{Http\+Request.\+php}}\end{DoxyCompactItemize}

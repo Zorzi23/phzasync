@@ -12,6 +12,7 @@ class ClosureReflector extends ReflectionFunction {
     /**
      * 
      * @var Closure $fnClosure
+     * @return $this
      */
     public function __construct(\Closure $fnClosure) {
         parent::__construct($fnClosure);
@@ -33,7 +34,12 @@ class ClosureReflector extends ReflectionFunction {
         }
         return trim($aMatches[0]);
     }
-    
+
+    /**
+     * 
+     * @throws UnexpectedValueException
+     * @return string
+     */
     public function getCodeFunctionDefintion() {
         preg_match(
             $this->isArrowFunction() ? self::getArrayFunctionCodeFunctionDefinitionPattern() : self::getCodeFunctionDefinitionPattern(),

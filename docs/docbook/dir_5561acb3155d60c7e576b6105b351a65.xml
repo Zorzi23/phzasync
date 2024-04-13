@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_5561acb3155d60c7e576b6105b351a65" xml:lang="en-US">
+<title>C:/xampp/htdocs/async/phzasync/src/Serializer Directory Reference</title>
+<indexterm><primary>C:/xampp/htdocs/async/phzasync/src/Serializer Directory Reference</primary></indexterm>
+Directory dependency graph for Serializer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_5561acb3155d60c7e576b6105b351a65_dep.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_dc8ca16700ff73f3a2fa732efc32e2aa">Closure</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_async_1_1_enum_execution_type" xml:lang="en-US">
+<title>EnumExecutionType Class Reference</title>
+<indexterm><primary>EnumExecutionType</primary></indexterm>
+<simplesect>
+    <title>Data Fields    </title>
+        <itemizedlist>
+            <listitem><para>const <link linkend="_class_async_1_1_enum_execution_type_1a5a70b5752353374bb1dba6d0b170328e">ASYNC_BUFFER_EXECUTION</link> = 1</para>
+</listitem>
+            <listitem><para>const <link linkend="_class_async_1_1_enum_execution_type_1ad15a3ee9a803b2542f98039b43875288">ASYNC_BUFFER_REQUEST_EXECUTION</link> = 2</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Field Documentation</title>
+<anchor xml:id="_class_async_1_1_enum_execution_type_1a5a70b5752353374bb1dba6d0b170328e"/><section>
+    <title>ASYNC_BUFFER_EXECUTION</title>
+<indexterm><primary>ASYNC_BUFFER_EXECUTION</primary><secondary>EnumExecutionType</secondary></indexterm>
+<indexterm><primary>EnumExecutionType</primary><secondary>ASYNC_BUFFER_EXECUTION</secondary></indexterm>
+<para><computeroutput>const ASYNC_BUFFER_EXECUTION = 1</computeroutput></para>
+<para>@final int </para>
+</section>
+<anchor xml:id="_class_async_1_1_enum_execution_type_1ad15a3ee9a803b2542f98039b43875288"/><section>
+    <title>ASYNC_BUFFER_REQUEST_EXECUTION</title>
+<indexterm><primary>ASYNC_BUFFER_REQUEST_EXECUTION</primary><secondary>EnumExecutionType</secondary></indexterm>
+<indexterm><primary>EnumExecutionType</primary><secondary>ASYNC_BUFFER_REQUEST_EXECUTION</secondary></indexterm>
+<para><computeroutput>const ASYNC_BUFFER_REQUEST_EXECUTION = 2</computeroutput></para>
+<para>@final int </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/xampp/htdocs/async/phzasync/src/Async/<link linkend="__enum_execution_type_8php">EnumExecutionType.php</link></section>
+</section>

@@ -20,6 +20,8 @@ class StrategySpecificLinesReader implements FileReaderStrategy {
 
     /**
      * 
+     * @param int $iStartLine
+     * @param int $iEndLine
      * @return $this
      */
     public function __construct($iStartLine, $iEndLine) {
@@ -72,6 +74,11 @@ class StrategySpecificLinesReader implements FileReaderStrategy {
         return implode(PHP_EOL, $aLines);
     }
 
+    /**
+     * 
+     * @param string $sFilePath
+     * @return string
+     */
     private function generativeRead($sFilePath) {
         $iCurrentLine = 1;
         $rFile = fopen($sFilePath, "r");

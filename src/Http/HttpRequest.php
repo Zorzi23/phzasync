@@ -34,6 +34,12 @@ class HttpRequest {
      */
     private $iTimeout = null;
 
+    /**
+     * 
+     * @param string $sUrl
+     * @param string $sMethod
+     * @return $this
+     */
     public function __construct($sUrl, $sMethod) {
         $this->setUrl($sUrl)->setMethod($sMethod);
     }

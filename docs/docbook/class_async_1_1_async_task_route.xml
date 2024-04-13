@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_async_1_1_async_task_route" xml:lang="en-US">
+<title>AsyncTaskRoute Class Reference</title>
+<indexterm><primary>AsyncTaskRoute</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_async_1_1_async_task_route_1a81f56ba39fc97ddc7237acb8299539de">fetchProcesses</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_async_1_1_async_task_route_1a81f56ba39fc97ddc7237acb8299539de"/><section>
+    <title>fetchProcesses()</title>
+<indexterm><primary>fetchProcesses</primary><secondary>AsyncTaskRoute</secondary></indexterm>
+<indexterm><primary>AsyncTaskRoute</primary><secondary>fetchProcesses</secondary></indexterm>
+<para><computeroutput>fetchProcesses ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>void </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/xampp/htdocs/async/phzasync/src/Async/<link linkend="__async_task_route_8php">AsyncTaskRoute.php</link></section>
+</section>

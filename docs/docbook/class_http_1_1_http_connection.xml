@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_http_1_1_http_connection" xml:lang="en-US">
+<title>HttpConnection Class Reference</title>
+<indexterm><primary>HttpConnection</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_class_http_1_1_http_connection_1a10b1f5e81bf91204d59ec801e482334a">closeConnection</link> ()</para>
+</listitem>
+            <listitem><para>static <link linkend="_class_http_1_1_http_connection_1a13c506fa80a40d0a161b9ee91a5db11c">flush</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_http_1_1_http_connection_1a10b1f5e81bf91204d59ec801e482334a"/><section>
+    <title>closeConnection()</title>
+<indexterm><primary>closeConnection</primary><secondary>HttpConnection</secondary></indexterm>
+<indexterm><primary>HttpConnection</primary><secondary>closeConnection</secondary></indexterm>
+<para><computeroutput>static closeConnection ( )<computeroutput>[static]</computeroutput></computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>void </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_http_1_1_http_connection_1a13c506fa80a40d0a161b9ee91a5db11c"/><section>
+    <title>flush()</title>
+<indexterm><primary>flush</primary><secondary>HttpConnection</secondary></indexterm>
+<indexterm><primary>HttpConnection</primary><secondary>flush</secondary></indexterm>
+<para><computeroutput>static flush ( )<computeroutput>[static]</computeroutput></computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>void </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/xampp/htdocs/async/phzasync/src/Http/<link linkend="__http_connection_8php">HttpConnection.php</link></section>
+</section>

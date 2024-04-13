@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_async" xml:lang="en-US">
+<title>Async Namespace Reference</title>
+<indexterm><primary>Async</primary></indexterm>
+<simplesect>
+    <title>Data Structures    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_async_1_1_async_task_options">AsyncTaskOptions</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_async_1_1_async_task_options_reader">AsyncTaskOptionsReader</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_async_1_1_async_task_route">AsyncTaskRoute</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_async_1_1_enum_execution_type">EnumExecutionType</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_async_1_1_enum_priority_task">EnumPriorityTask</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_async_1_1_task">Task</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

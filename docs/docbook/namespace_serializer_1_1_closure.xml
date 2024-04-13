@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_serializer_1_1_closure" xml:lang="en-US">
+<title>Serializer\Closure Namespace Reference</title>
+<indexterm><primary>Serializer\Closure</primary></indexterm>
+<simplesect>
+    <title>Data Structures    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_serializer_1_1_closure_1_1_closure_abstractor">ClosureAbstractor</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_serializer_1_1_closure_1_1_closure_reflector">ClosureReflector</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

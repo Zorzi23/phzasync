@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__enum_execution_type_8php" xml:lang="en-US">
+<title>C:/xampp/htdocs/async/phzasync/src/Async/EnumExecutionType.php File Reference</title>
+<indexterm><primary>C:/xampp/htdocs/async/phzasync/src/Async/EnumExecutionType.php</primary></indexterm>
+<simplesect>
+    <title>Data Structures    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_async_1_1_enum_execution_type">EnumExecutionType</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_async">Async</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

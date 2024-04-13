@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_serializer_1_1_closure_1_1_closure_reflector" xml:lang="en-US">
+<title>ClosureReflector Class Reference</title>
+<indexterm><primary>ClosureReflector</primary></indexterm>
+Inheritance diagram for ClosureReflector:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_serializer_1_1_closure_1_1_closure_reflector__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for ClosureReflector:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_serializer_1_1_closure_1_1_closure_reflector__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_serializer_1_1_closure_1_1_closure_reflector_1adacd80533a1317c30b4a5dad31f21785">__construct</link> (\Closure $fnClosure)</para>
+</listitem>
+            <listitem><para><link linkend="_class_serializer_1_1_closure_1_1_closure_reflector_1ab5e24da53b4a0d0848b18c1e832f47ff">getCode</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_serializer_1_1_closure_1_1_closure_reflector_1abba7ac1a2a1f0af8f6ea0956a44bfe49">getCodeFunctionDefintion</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_serializer_1_1_closure_1_1_closure_reflector_1a58f4065ad9c6551363eb1a60e726b078">getBruteCode</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_serializer_1_1_closure_1_1_closure_reflector_1a803a004090a9051b2c92f16ee7cb313d">isArrowFunction</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_serializer_1_1_closure_1_1_closure_reflector_1a6fb5bf50590700b0faf491f91ebd2d85">getFileTokens</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_class_serializer_1_1_closure_1_1_closure_reflector_1a0f177582e5349542afda586846a7e9a5">getCodePattern</link> ()</para>
+</listitem>
+            <listitem><para>static <link linkend="_class_serializer_1_1_closure_1_1_closure_reflector_1a8d62865ccf803a35d58c8d6b5b1ff3a9">getArrayFunctionCodeFunctionDefinitionPattern</link> ()</para>
+</listitem>
+            <listitem><para>static <link linkend="_class_serializer_1_1_closure_1_1_closure_reflector_1abfb6a454a5124e38ee89a1ce37ab5bb1">getCodeFunctionDefinitionPattern</link> ()</para>
+</listitem>
+            <listitem><para>static <link linkend="_class_serializer_1_1_closure_1_1_closure_reflector_1ab3af624dff17cd9ca7f67f87c640f1fb">getPHPVariablePattern</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_serializer_1_1_closure_1_1_closure_reflector_1adacd80533a1317c30b4a5dad31f21785"/><section>
+    <title>__construct()</title>
+<indexterm><primary>__construct</primary><secondary>ClosureReflector</secondary></indexterm>
+<indexterm><primary>ClosureReflector</primary><secondary>__construct</secondary></indexterm>
+<para><computeroutput>__construct (\Closure $fnClosure)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_serializer_1_1_closure_1_1_closure_reflector_1a8d62865ccf803a35d58c8d6b5b1ff3a9"/><section>
+    <title>getArrayFunctionCodeFunctionDefinitionPattern()</title>
+<indexterm><primary>getArrayFunctionCodeFunctionDefinitionPattern</primary><secondary>ClosureReflector</secondary></indexterm>
+<indexterm><primary>ClosureReflector</primary><secondary>getArrayFunctionCodeFunctionDefinitionPattern</secondary></indexterm>
+<para><computeroutput>static getArrayFunctionCodeFunctionDefinitionPattern ( )<computeroutput>[static]</computeroutput>, <computeroutput>[protected]</computeroutput></computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>string </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_serializer_1_1_closure_1_1_closure_reflector_1a58f4065ad9c6551363eb1a60e726b078"/><section>
+    <title>getBruteCode()</title>
+<indexterm><primary>getBruteCode</primary><secondary>ClosureReflector</secondary></indexterm>
+<indexterm><primary>ClosureReflector</primary><secondary>getBruteCode</secondary></indexterm>
+<para><computeroutput>getBruteCode ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>string </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_serializer_1_1_closure_1_1_closure_reflector_1ab5e24da53b4a0d0848b18c1e832f47ff"/><section>
+    <title>getCode()</title>
+<indexterm><primary>getCode</primary><secondary>ClosureReflector</secondary></indexterm>
+<indexterm><primary>ClosureReflector</primary><secondary>getCode</secondary></indexterm>
+<para><computeroutput>getCode ( )</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Exceptions</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>UnexpectedValueException</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>string </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_serializer_1_1_closure_1_1_closure_reflector_1abfb6a454a5124e38ee89a1ce37ab5bb1"/><section>
+    <title>getCodeFunctionDefinitionPattern()</title>
+<indexterm><primary>getCodeFunctionDefinitionPattern</primary><secondary>ClosureReflector</secondary></indexterm>
+<indexterm><primary>ClosureReflector</primary><secondary>getCodeFunctionDefinitionPattern</secondary></indexterm>
+<para><computeroutput>static getCodeFunctionDefinitionPattern ( )<computeroutput>[static]</computeroutput>, <computeroutput>[protected]</computeroutput></computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>string </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_serializer_1_1_closure_1_1_closure_reflector_1abba7ac1a2a1f0af8f6ea0956a44bfe49"/><section>
+    <title>getCodeFunctionDefintion()</title>
+<indexterm><primary>getCodeFunctionDefintion</primary><secondary>ClosureReflector</secondary></indexterm>
+<indexterm><primary>ClosureReflector</primary><secondary>getCodeFunctionDefintion</secondary></indexterm>
+<para><computeroutput>getCodeFunctionDefintion ( )</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Exceptions</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>UnexpectedValueException</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>string </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_serializer_1_1_closure_1_1_closure_reflector_1a0f177582e5349542afda586846a7e9a5"/><section>
+    <title>getCodePattern()</title>
+<indexterm><primary>getCodePattern</primary><secondary>ClosureReflector</secondary></indexterm>
+<indexterm><primary>ClosureReflector</primary><secondary>getCodePattern</secondary></indexterm>
+<para><computeroutput>static getCodePattern ( )<computeroutput>[static]</computeroutput>, <computeroutput>[protected]</computeroutput></computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>string </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_serializer_1_1_closure_1_1_closure_reflector_1a6fb5bf50590700b0faf491f91ebd2d85"/><section>
+    <title>getFileTokens()</title>
+<indexterm><primary>getFileTokens</primary><secondary>ClosureReflector</secondary></indexterm>
+<indexterm><primary>ClosureReflector</primary><secondary>getFileTokens</secondary></indexterm>
+<para><computeroutput>getFileTokens ( )<computeroutput>[protected]</computeroutput></computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>string[] </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_serializer_1_1_closure_1_1_closure_reflector_1ab3af624dff17cd9ca7f67f87c640f1fb"/><section>
+    <title>getPHPVariablePattern()</title>
+<indexterm><primary>getPHPVariablePattern</primary><secondary>ClosureReflector</secondary></indexterm>
+<indexterm><primary>ClosureReflector</primary><secondary>getPHPVariablePattern</secondary></indexterm>
+<para><computeroutput>static getPHPVariablePattern ( )<computeroutput>[static]</computeroutput>, <computeroutput>[protected]</computeroutput></computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>string </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_serializer_1_1_closure_1_1_closure_reflector_1a803a004090a9051b2c92f16ee7cb313d"/><section>
+    <title>isArrowFunction()</title>
+<indexterm><primary>isArrowFunction</primary><secondary>ClosureReflector</secondary></indexterm>
+<indexterm><primary>ClosureReflector</primary><secondary>isArrowFunction</secondary></indexterm>
+<para><computeroutput>isArrowFunction ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>bool </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/xampp/htdocs/async/phzasync/src/Serializer/Closure/<link linkend="__closure_reflector_8php">ClosureReflector.php</link></section>
+</section>

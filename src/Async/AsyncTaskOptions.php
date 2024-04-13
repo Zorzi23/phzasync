@@ -20,7 +20,7 @@ class AsyncTaskOptions {
      * 
      * @var int
      */
-    private $iExecutionType = EnumExecutionType::ASYNC_BUFFER_EXECUTION;
+    private $iExecutionType = EnumExecutionType::ASYNC_BUFFER_REQUEST_EXECUTION;
 
     /**
      * 

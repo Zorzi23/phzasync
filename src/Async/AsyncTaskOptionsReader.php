@@ -7,6 +7,10 @@ use FileReader\FileReaderStrategy,
 
 class AsyncTaskOptionsReader implements FileReaderStrategy {
 
+    /**
+     * 
+     * @return AsyncTaskOptions
+     */
     public function read($sFilePath) {
         $sData = file_get_contents($sFilePath);
         $aConfig = json_decode($sData, true);

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_3197372b525cf7586669e900afbdb06f" xml:lang="en-US">
+<title>C:/xampp/htdocs/async/phzasync/src/Http Directory Reference</title>
+<indexterm><primary>C:/xampp/htdocs/async/phzasync/src/Http Directory Reference</primary></indexterm>
+Directory dependency graph for Http:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_3197372b525cf7586669e900afbdb06f_dep.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__http_connection_8php">HttpConnection.php</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__http_header_8php">HttpHeader.php</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__http_request_8php">HttpRequest.php</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

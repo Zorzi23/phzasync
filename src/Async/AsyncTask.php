@@ -10,7 +10,6 @@ use Serializer\Closure\ClosureReflector,
     Http\HttpConnection,
     Http\HttpRequest;
 
-
 class AsyncTask {
 
     /**
@@ -101,6 +100,10 @@ class AsyncTask {
         return $this;
     }
 
+    /**
+     * 
+     * @return $this
+     */
     private function awaitExecutionBuffer() {
         register_shutdown_function(function() {
             $this->executeAsyncBuffer();
@@ -108,6 +111,10 @@ class AsyncTask {
         return $this;
     }
 
+    /**
+     * 
+     * @return $this
+     */
     private function awaitRequestExecutionBuffer() {
         foreach($this->getTasks() as $oTask) {
             $this->createAsyncExecFile();
@@ -211,6 +218,10 @@ class AsyncTask {
         return $this;
     }
 
+    /**
+     * 
+     * @return string
+     */
     private function createAsyncExecContent() {
         return file_get_contents(__DIR__.'/AsyncBackgroundExecution.php');
     }

@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_file_reader_1_1_file_reader" xml:lang="en-US">
+<title>FileReader Class Reference</title>
+<indexterm><primary>FileReader</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_file_reader_1_1_file_reader_1a338b896f0292eac5f50773215b5376bb">__construct</link> ($sFilePath, $oStrategy)</para>
+</listitem>
+            <listitem><para><link linkend="_class_file_reader_1_1_file_reader_1a13f3044501ccff40350fb08dc1a278d6">getFilePath</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_file_reader_1_1_file_reader_1aca9b20dbcd05f53d7e76083904b6005d">setFilePath</link> ($sFilePath)</para>
+</listitem>
+            <listitem><para><link linkend="_class_file_reader_1_1_file_reader_1a52a81b96bba40c070213f11263bb337d">setStrategy</link> ($oStrategy)</para>
+</listitem>
+            <listitem><para><link linkend="_class_file_reader_1_1_file_reader_1a64571309bfb3238c65fd3c2898f92440">read</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_file_reader_1_1_file_reader_1a338b896f0292eac5f50773215b5376bb"/><section>
+    <title>__construct()</title>
+<indexterm><primary>__construct</primary><secondary>FileReader</secondary></indexterm>
+<indexterm><primary>FileReader</primary><secondary>__construct</secondary></indexterm>
+<para><computeroutput>__construct ( $sFilePath,  $oStrategy)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>string</entry><entry>$sFilePath</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+<entry>FileReaderStrategy</entry><entry>$oStrategy</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_file_reader_1_1_file_reader_1a13f3044501ccff40350fb08dc1a278d6"/><section>
+    <title>getFilePath()</title>
+<indexterm><primary>getFilePath</primary><secondary>FileReader</secondary></indexterm>
+<indexterm><primary>FileReader</primary><secondary>getFilePath</secondary></indexterm>
+<para><computeroutput>getFilePath ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>string </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_file_reader_1_1_file_reader_1a64571309bfb3238c65fd3c2898f92440"/><section>
+    <title>read()</title>
+<indexterm><primary>read</primary><secondary>FileReader</secondary></indexterm>
+<indexterm><primary>FileReader</primary><secondary>read</secondary></indexterm>
+<para><computeroutput>read ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>mixed </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_file_reader_1_1_file_reader_1aca9b20dbcd05f53d7e76083904b6005d"/><section>
+    <title>setFilePath()</title>
+<indexterm><primary>setFilePath</primary><secondary>FileReader</secondary></indexterm>
+<indexterm><primary>FileReader</primary><secondary>setFilePath</secondary></indexterm>
+<para><computeroutput>setFilePath ( $sFilePath)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>string</entry><entry>$sFilePath</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>$this <?linebreak?> </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_file_reader_1_1_file_reader_1a52a81b96bba40c070213f11263bb337d"/><section>
+    <title>setStrategy()</title>
+<indexterm><primary>setStrategy</primary><secondary>FileReader</secondary></indexterm>
+<indexterm><primary>FileReader</primary><secondary>setStrategy</secondary></indexterm>
+<para><computeroutput>setStrategy ( $oStrategy)</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>$this </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/xampp/htdocs/async/phzasync/src/FileReader/<link linkend="__file_reader_8php">FileReader.php</link></section>
+</section>

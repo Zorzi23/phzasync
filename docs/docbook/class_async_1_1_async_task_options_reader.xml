@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_async_1_1_async_task_options_reader" xml:lang="en-US">
+<title>AsyncTaskOptionsReader Class Reference</title>
+<indexterm><primary>AsyncTaskOptionsReader</primary></indexterm>
+Inheritance diagram for AsyncTaskOptionsReader:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_async_1_1_async_task_options_reader__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for AsyncTaskOptionsReader:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_async_1_1_async_task_options_reader__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_async_1_1_async_task_options_reader_1aac668d06cab09cb383b988d3119c8ede">read</link> ($sFilePath)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_async_1_1_async_task_options_reader_1aac668d06cab09cb383b988d3119c8ede"/><section>
+    <title>read()</title>
+<indexterm><primary>read</primary><secondary>AsyncTaskOptionsReader</secondary></indexterm>
+<indexterm><primary>AsyncTaskOptionsReader</primary><secondary>read</secondary></indexterm>
+<para><computeroutput>read ( $sFilePath)</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>AsyncTaskOptions </para>
+</formalpara>
+</para>
+<para>
+Implements <link linkend="_interface_file_reader_1_1_file_reader_strategy_1aac668d06cab09cb383b988d3119c8ede">FileReaderStrategy</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/xampp/htdocs/async/phzasync/src/Async/<link linkend="__async_task_options_reader_8php">AsyncTaskOptionsReader.php</link></section>
+</section>

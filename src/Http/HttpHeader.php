@@ -16,6 +16,12 @@ class HttpHeader {
      */
     private $aValues = [];
 
+    /**
+     * 
+     * @param string $sName
+     * @param mixed[] $aValues
+     * @return $this
+     */
     public function __construct($sName, $aValues = []) {
         $this->setName($sName);
         $this->setValues($aValues);
@@ -41,7 +47,6 @@ class HttpHeader {
 
     /**
      * 
-     * 
      * @return mixed[]
      */
     public function getValues() {
@@ -62,6 +67,7 @@ class HttpHeader {
 
     /**
      * 
+     * @param string $sValue
      * @return $this
      */
     public function addValue($sValue) {

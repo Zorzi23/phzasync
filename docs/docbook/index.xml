@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_index" xml:lang="en-US">
+    <info>
+    <title>phzasync</title>
+    </info>
+    <xi:include href="md__c_1_2xampp_2htdocs_2async_2phzasync_2_r_e_a_d_m_e.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<chapter>
+    <title>Namespace Documentation</title>
+<xi:include href="namespace_async.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_file_reader.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_http.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_serializer_1_1_closure.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>Data Structure Documentation</title>
+    <xi:include href="class_async_1_1_async_task_options.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_async_1_1_async_task_options_reader.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_async_1_1_async_task_route.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_async_task_test.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_serializer_1_1_closure_1_1_closure_abstractor.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_serializer_1_1_closure_1_1_closure_reflector.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_async_1_1_enum_execution_type.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_async_1_1_enum_priority_task.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_file_reader_1_1_file_reader.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_file_reader_1_1_file_reader_strategy.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_http_1_1_http_connection.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_http_1_1_http_header.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_http_1_1_http_request.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_file_reader_1_1_strategy_specific_lines_reader.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_async_1_1_task.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>File Documentation</title>
+    <xi:include href="_r_e_a_d_m_e_8md.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_async_background_execution_8php.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_async_task_8php.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_async_task_options_8php.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_async_task_options_reader_8php.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_async_task_route_8php.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_enum_execution_type_8php.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_enum_priority_task_8php.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_task_8php.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_file_reader_8php.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_file_reader_strategy_8php.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_strategy_specific_lines_reader_8php.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_http_connection_8php.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_http_header_8php.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_http_request_8php.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_closure_abstractor_8php.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_closure_reflector_8php.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_async_task_test_8php.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<index/>
+</book>

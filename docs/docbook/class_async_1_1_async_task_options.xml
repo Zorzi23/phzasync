@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_async_1_1_async_task_options" xml:lang="en-US">
+<title>AsyncTaskOptions Class Reference</title>
+<indexterm><primary>AsyncTaskOptions</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_async_1_1_async_task_options_1acb4ccb5e8869c8d577d4bbc51e20e4c1">setIgnoreUserAbort</link> ($bIgnoreUserAbort)</para>
+</listitem>
+            <listitem><para><link linkend="_class_async_1_1_async_task_options_1a767ffeb38013a00fee459665ce55c8c8">isIgnoreUserAbort</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_async_1_1_async_task_options_1aa032a638275fc9eb1af20f4e9752c223">setMaxExecutionTime</link> ($iMaxExecutionTime)</para>
+</listitem>
+            <listitem><para><link linkend="_class_async_1_1_async_task_options_1a8a117529f0a1a001e08dc68e914744ea">getMaxExecutionTime</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_async_1_1_async_task_options_1abd05097db2fee1edab38a77743567f55">getExecutionType</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_async_1_1_async_task_options_1a6961b31ba16e73fa6cdb370066a252d0">setExecutionType</link> ($iExecutionType)</para>
+</listitem>
+            <listitem><para><link linkend="_class_async_1_1_async_task_options_1a71698d3f1b64f6b9740df6e016eec231">getAsyncExecutionEndpoint</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_async_1_1_async_task_options_1a0f89cd80f91c8aaed2fb06cd3be5980f">setAsyncExecutionEndpoint</link> ($sEndpoint)</para>
+</listitem>
+            <listitem><para><link linkend="_class_async_1_1_async_task_options_1af1ca966f2ed5fa6643e88d41006b23bd">getAsyncExecutionEndpointDir</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_async_1_1_async_task_options_1a3afa49a7958a18876c6474931eb6b6d4">setAsyncExecutionEndpointDir</link> ($sDir)</para>
+</listitem>
+            <listitem><para><link linkend="_class_async_1_1_async_task_options_1aa92d94b7b63494df253fcb96bb987375">getAsyncExecutionProcessFile</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_async_1_1_async_task_options_1a18aebfbc690295a40f6a99042fc79c69">setAsyncExecutionProcessFile</link> ($sFile)</para>
+</listitem>
+            <listitem><para><link linkend="_class_async_1_1_async_task_options_1a9ea03fda9995ba0261b39787f12f4e11">getAsyncLibDir</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_async_1_1_async_task_options_1a395f138679eb7805bef51ed51382fdf2">setAsyncLibDir</link> ($sDir)</para>
+</listitem>
+            <listitem><para><link linkend="_class_async_1_1_async_task_options_1ac88c3571a8eed8a5c1e0ee33d0b92117">getFullPathAsyncExecutionProcessFile</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_async_1_1_async_task_options_1a68f95ca313a11dc5b1974b545ac80503">getFullPathEndpointAsyncExecutionProcessFile</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_async_1_1_async_task_options_1a71698d3f1b64f6b9740df6e016eec231"/><section>
+    <title>getAsyncExecutionEndpoint()</title>
+<indexterm><primary>getAsyncExecutionEndpoint</primary><secondary>AsyncTaskOptions</secondary></indexterm>
+<indexterm><primary>AsyncTaskOptions</primary><secondary>getAsyncExecutionEndpoint</secondary></indexterm>
+<para><computeroutput>getAsyncExecutionEndpoint ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>string </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_async_1_1_async_task_options_1af1ca966f2ed5fa6643e88d41006b23bd"/><section>
+    <title>getAsyncExecutionEndpointDir()</title>
+<indexterm><primary>getAsyncExecutionEndpointDir</primary><secondary>AsyncTaskOptions</secondary></indexterm>
+<indexterm><primary>AsyncTaskOptions</primary><secondary>getAsyncExecutionEndpointDir</secondary></indexterm>
+<para><computeroutput>getAsyncExecutionEndpointDir ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>string </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_async_1_1_async_task_options_1aa92d94b7b63494df253fcb96bb987375"/><section>
+    <title>getAsyncExecutionProcessFile()</title>
+<indexterm><primary>getAsyncExecutionProcessFile</primary><secondary>AsyncTaskOptions</secondary></indexterm>
+<indexterm><primary>AsyncTaskOptions</primary><secondary>getAsyncExecutionProcessFile</secondary></indexterm>
+<para><computeroutput>getAsyncExecutionProcessFile ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>string </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_async_1_1_async_task_options_1a9ea03fda9995ba0261b39787f12f4e11"/><section>
+    <title>getAsyncLibDir()</title>
+<indexterm><primary>getAsyncLibDir</primary><secondary>AsyncTaskOptions</secondary></indexterm>
+<indexterm><primary>AsyncTaskOptions</primary><secondary>getAsyncLibDir</secondary></indexterm>
+<para><computeroutput>getAsyncLibDir ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>string </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_async_1_1_async_task_options_1abd05097db2fee1edab38a77743567f55"/><section>
+    <title>getExecutionType()</title>
+<indexterm><primary>getExecutionType</primary><secondary>AsyncTaskOptions</secondary></indexterm>
+<indexterm><primary>AsyncTaskOptions</primary><secondary>getExecutionType</secondary></indexterm>
+<para><computeroutput>getExecutionType ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>int </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_async_1_1_async_task_options_1ac88c3571a8eed8a5c1e0ee33d0b92117"/><section>
+    <title>getFullPathAsyncExecutionProcessFile()</title>
+<indexterm><primary>getFullPathAsyncExecutionProcessFile</primary><secondary>AsyncTaskOptions</secondary></indexterm>
+<indexterm><primary>AsyncTaskOptions</primary><secondary>getFullPathAsyncExecutionProcessFile</secondary></indexterm>
+<para><computeroutput>getFullPathAsyncExecutionProcessFile ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>string </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_async_1_1_async_task_options_1a68f95ca313a11dc5b1974b545ac80503"/><section>
+    <title>getFullPathEndpointAsyncExecutionProcessFile()</title>
+<indexterm><primary>getFullPathEndpointAsyncExecutionProcessFile</primary><secondary>AsyncTaskOptions</secondary></indexterm>
+<indexterm><primary>AsyncTaskOptions</primary><secondary>getFullPathEndpointAsyncExecutionProcessFile</secondary></indexterm>
+<para><computeroutput>getFullPathEndpointAsyncExecutionProcessFile ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>string </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_async_1_1_async_task_options_1a8a117529f0a1a001e08dc68e914744ea"/><section>
+    <title>getMaxExecutionTime()</title>
+<indexterm><primary>getMaxExecutionTime</primary><secondary>AsyncTaskOptions</secondary></indexterm>
+<indexterm><primary>AsyncTaskOptions</primary><secondary>getMaxExecutionTime</secondary></indexterm>
+<para><computeroutput>getMaxExecutionTime ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>int </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_async_1_1_async_task_options_1a767ffeb38013a00fee459665ce55c8c8"/><section>
+    <title>isIgnoreUserAbort()</title>
+<indexterm><primary>isIgnoreUserAbort</primary><secondary>AsyncTaskOptions</secondary></indexterm>
+<indexterm><primary>AsyncTaskOptions</primary><secondary>isIgnoreUserAbort</secondary></indexterm>
+<para><computeroutput>isIgnoreUserAbort ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>bool </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_async_1_1_async_task_options_1a0f89cd80f91c8aaed2fb06cd3be5980f"/><section>
+    <title>setAsyncExecutionEndpoint()</title>
+<indexterm><primary>setAsyncExecutionEndpoint</primary><secondary>AsyncTaskOptions</secondary></indexterm>
+<indexterm><primary>AsyncTaskOptions</primary><secondary>setAsyncExecutionEndpoint</secondary></indexterm>
+<para><computeroutput>setAsyncExecutionEndpoint ( $sEndpoint)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>string</entry><entry>$sEndpoint</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>$this </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_async_1_1_async_task_options_1a3afa49a7958a18876c6474931eb6b6d4"/><section>
+    <title>setAsyncExecutionEndpointDir()</title>
+<indexterm><primary>setAsyncExecutionEndpointDir</primary><secondary>AsyncTaskOptions</secondary></indexterm>
+<indexterm><primary>AsyncTaskOptions</primary><secondary>setAsyncExecutionEndpointDir</secondary></indexterm>
+<para><computeroutput>setAsyncExecutionEndpointDir ( $sDir)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>string</entry><entry>$sFile</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>$this </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_async_1_1_async_task_options_1a18aebfbc690295a40f6a99042fc79c69"/><section>
+    <title>setAsyncExecutionProcessFile()</title>
+<indexterm><primary>setAsyncExecutionProcessFile</primary><secondary>AsyncTaskOptions</secondary></indexterm>
+<indexterm><primary>AsyncTaskOptions</primary><secondary>setAsyncExecutionProcessFile</secondary></indexterm>
+<para><computeroutput>setAsyncExecutionProcessFile ( $sFile)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>string</entry><entry>$sFile</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>$this </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_async_1_1_async_task_options_1a395f138679eb7805bef51ed51382fdf2"/><section>
+    <title>setAsyncLibDir()</title>
+<indexterm><primary>setAsyncLibDir</primary><secondary>AsyncTaskOptions</secondary></indexterm>
+<indexterm><primary>AsyncTaskOptions</primary><secondary>setAsyncLibDir</secondary></indexterm>
+<para><computeroutput>setAsyncLibDir ( $sDir)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>string</entry><entry>$sFile</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>$this </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_async_1_1_async_task_options_1a6961b31ba16e73fa6cdb370066a252d0"/><section>
+    <title>setExecutionType()</title>
+<indexterm><primary>setExecutionType</primary><secondary>AsyncTaskOptions</secondary></indexterm>
+<indexterm><primary>AsyncTaskOptions</primary><secondary>setExecutionType</secondary></indexterm>
+<para><computeroutput>setExecutionType ( $iExecutionType)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>int</entry><entry>$iExecutionType</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>$this </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_async_1_1_async_task_options_1acb4ccb5e8869c8d577d4bbc51e20e4c1"/><section>
+    <title>setIgnoreUserAbort()</title>
+<indexterm><primary>setIgnoreUserAbort</primary><secondary>AsyncTaskOptions</secondary></indexterm>
+<indexterm><primary>AsyncTaskOptions</primary><secondary>setIgnoreUserAbort</secondary></indexterm>
+<para><computeroutput>setIgnoreUserAbort ( $bIgnoreUserAbort)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>bool</entry><entry>$bIgnoreUserAbort</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_async_1_1_async_task_options_1aa032a638275fc9eb1af20f4e9752c223"/><section>
+    <title>setMaxExecutionTime()</title>
+<indexterm><primary>setMaxExecutionTime</primary><secondary>AsyncTaskOptions</secondary></indexterm>
+<indexterm><primary>AsyncTaskOptions</primary><secondary>setMaxExecutionTime</secondary></indexterm>
+<para><computeroutput>setMaxExecutionTime ( $iMaxExecutionTime)</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>$this </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/xampp/htdocs/async/phzasync/src/Async/<link linkend="__async_task_options_8php">AsyncTaskOptions.php</link></section>
+</section>

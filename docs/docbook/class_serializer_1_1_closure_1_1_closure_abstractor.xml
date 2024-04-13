@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_serializer_1_1_closure_1_1_closure_abstractor" xml:lang="en-US">
+<title>ClosureAbstractor Class Reference</title>
+<indexterm><primary>ClosureAbstractor</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_serializer_1_1_closure_1_1_closure_abstractor_1adacd80533a1317c30b4a5dad31f21785">__construct</link> (\Closure $fnClosure)</para>
+</listitem>
+            <listitem><para><link linkend="_class_serializer_1_1_closure_1_1_closure_abstractor_1a0c14ffb33fde54c492dbf82e39c905bf">getClosure</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_serializer_1_1_closure_1_1_closure_abstractor_1a07641c48dc32ff180b612ea1f5dada9e">setFnClosure</link> (\Closure $fnClosure)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_serializer_1_1_closure_1_1_closure_abstractor_1adacd80533a1317c30b4a5dad31f21785"/><section>
+    <title>__construct()</title>
+<indexterm><primary>__construct</primary><secondary>ClosureAbstractor</secondary></indexterm>
+<indexterm><primary>ClosureAbstractor</primary><secondary>__construct</secondary></indexterm>
+<para><computeroutput>__construct (\Closure $fnClosure)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_serializer_1_1_closure_1_1_closure_abstractor_1a0c14ffb33fde54c492dbf82e39c905bf"/><section>
+    <title>getClosure()</title>
+<indexterm><primary>getClosure</primary><secondary>ClosureAbstractor</secondary></indexterm>
+<indexterm><primary>ClosureAbstractor</primary><secondary>getClosure</secondary></indexterm>
+<para><computeroutput>getClosure ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>Closure </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_serializer_1_1_closure_1_1_closure_abstractor_1a07641c48dc32ff180b612ea1f5dada9e"/><section>
+    <title>setFnClosure()</title>
+<indexterm><primary>setFnClosure</primary><secondary>ClosureAbstractor</secondary></indexterm>
+<indexterm><primary>ClosureAbstractor</primary><secondary>setFnClosure</secondary></indexterm>
+<para><computeroutput>setFnClosure (\Closure $fnClosure)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>Closure</entry><entry>$fnClosure</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>$this </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/xampp/htdocs/async/phzasync/src/Serializer/Closure/<link linkend="__closure_abstractor_8php">ClosureAbstractor.php</link></section>
+</section>

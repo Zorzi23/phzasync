@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_async_1_1_enum_priority_task" xml:lang="en-US">
+<title>EnumPriorityTask Class Reference</title>
+<indexterm><primary>EnumPriorityTask</primary></indexterm>
+<simplesect>
+    <title>Data Fields    </title>
+        <itemizedlist>
+            <listitem><para>const <link linkend="_class_async_1_1_enum_priority_task_1a0c39c0171121616f3c57138fad067fd3">HIGH_PRIORITY</link> = 3</para>
+</listitem>
+            <listitem><para>const <link linkend="_class_async_1_1_enum_priority_task_1a5708ed014c7b98d8e7be31fb48d47c06">MEDIUM_PRIORITY</link> = 2</para>
+</listitem>
+            <listitem><para>const <link linkend="_class_async_1_1_enum_priority_task_1a939203aee791c6117e944fbf99b5d1de">LOW_PRIORITY</link> = 1</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Field Documentation</title>
+<anchor xml:id="_class_async_1_1_enum_priority_task_1a0c39c0171121616f3c57138fad067fd3"/><section>
+    <title>HIGH_PRIORITY</title>
+<indexterm><primary>HIGH_PRIORITY</primary><secondary>EnumPriorityTask</secondary></indexterm>
+<indexterm><primary>EnumPriorityTask</primary><secondary>HIGH_PRIORITY</secondary></indexterm>
+<para><computeroutput>const HIGH_PRIORITY = 3</computeroutput></para></section>
+<anchor xml:id="_class_async_1_1_enum_priority_task_1a939203aee791c6117e944fbf99b5d1de"/><section>
+    <title>LOW_PRIORITY</title>
+<indexterm><primary>LOW_PRIORITY</primary><secondary>EnumPriorityTask</secondary></indexterm>
+<indexterm><primary>EnumPriorityTask</primary><secondary>LOW_PRIORITY</secondary></indexterm>
+<para><computeroutput>const LOW_PRIORITY = 1</computeroutput></para></section>
+<anchor xml:id="_class_async_1_1_enum_priority_task_1a5708ed014c7b98d8e7be31fb48d47c06"/><section>
+    <title>MEDIUM_PRIORITY</title>
+<indexterm><primary>MEDIUM_PRIORITY</primary><secondary>EnumPriorityTask</secondary></indexterm>
+<indexterm><primary>EnumPriorityTask</primary><secondary>MEDIUM_PRIORITY</secondary></indexterm>
+<para><computeroutput>const MEDIUM_PRIORITY = 2</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/xampp/htdocs/async/phzasync/src/Async/<link linkend="__enum_priority_task_8php">EnumPriorityTask.php</link></section>
+</section>

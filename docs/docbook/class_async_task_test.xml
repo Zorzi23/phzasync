@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_async_task_test" xml:lang="en-US">
+<title>AsyncTaskTest Class Reference</title>
+<indexterm><primary>AsyncTaskTest</primary></indexterm>
+Inheritance diagram for AsyncTaskTest:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_async_task_test__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for AsyncTaskTest:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_async_task_test__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_async_task_test_1a46d1bc43f341b42a9ad7cc4fa3632657">testAsyncTask</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_async_task_test_1a46d1bc43f341b42a9ad7cc4fa3632657"/><section>
+    <title>testAsyncTask()</title>
+<indexterm><primary>testAsyncTask</primary><secondary>AsyncTaskTest</secondary></indexterm>
+<indexterm><primary>AsyncTaskTest</primary><secondary>testAsyncTask</secondary></indexterm>
+<para><computeroutput>testAsyncTask ( )</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/xampp/htdocs/async/phzasync/tests/<link linkend="__async_task_test_8php">AsyncTaskTest.php</link></section>
+</section>

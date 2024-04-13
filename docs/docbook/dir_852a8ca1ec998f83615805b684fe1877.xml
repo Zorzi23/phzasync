@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_852a8ca1ec998f83615805b684fe1877" xml:lang="en-US">
+<title>C:/xampp/htdocs/async/phzasync/src/Async Directory Reference</title>
+<indexterm><primary>C:/xampp/htdocs/async/phzasync/src/Async Directory Reference</primary></indexterm>
+Directory dependency graph for Async:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_852a8ca1ec998f83615805b684fe1877_dep.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__async_background_execution_8php">AsyncBackgroundExecution.php</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__async_task_8php">AsyncTask.php</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__async_task_options_8php">AsyncTaskOptions.php</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__async_task_options_reader_8php">AsyncTaskOptionsReader.php</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__async_task_route_8php">AsyncTaskRoute.php</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__enum_execution_type_8php">EnumExecutionType.php</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__enum_priority_task_8php">EnumPriorityTask.php</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__task_8php">Task.php</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

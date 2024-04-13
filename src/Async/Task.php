@@ -35,6 +35,10 @@ class Task {
         return $this;
     }
 
+    /**
+     * 
+     * @return mixed
+     */
     public function call() {
         return call_user_func($this->getFnExecution());
     }

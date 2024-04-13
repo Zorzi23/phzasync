@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__file_reader_8php" xml:lang="en-US">
+<title>C:/xampp/htdocs/async/phzasync/src/FileReader/FileReader.php File Reference</title>
+<indexterm><primary>C:/xampp/htdocs/async/phzasync/src/FileReader/FileReader.php</primary></indexterm>
+<simplesect>
+    <title>Data Structures    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_file_reader_1_1_file_reader">FileReader</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_file_reader">FileReader</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

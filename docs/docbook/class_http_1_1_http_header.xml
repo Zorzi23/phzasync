@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_http_1_1_http_header" xml:lang="en-US">
+<title>HttpHeader Class Reference</title>
+<indexterm><primary>HttpHeader</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_http_1_1_http_header_1afbc7dd1442e93c4e0c4bf5e6dfecaced">__construct</link> ($sName, $aValues=[])</para>
+</listitem>
+            <listitem><para><link linkend="_class_http_1_1_http_header_1a3d0963e68bb313b163a73f2803c64600">getName</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_http_1_1_http_header_1ad93b9b00cb78288df05e5ed9dc26698c">setName</link> ($sName)</para>
+</listitem>
+            <listitem><para><link linkend="_class_http_1_1_http_header_1a70a0fe08035189260c72e32a9e20d30c">getValues</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_http_1_1_http_header_1a35d73ab9f6cdbb3a154f424ce8b92ffd">setValues</link> ($aValues)</para>
+</listitem>
+            <listitem><para><link linkend="_class_http_1_1_http_header_1a2e6311cb2a31df623532c15288212d96">addValue</link> ($sValue)</para>
+</listitem>
+            <listitem><para><link linkend="_class_http_1_1_http_header_1a614834f1605e407376028e8c82298c82">getHeader</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_http_1_1_http_header_1afbc7dd1442e93c4e0c4bf5e6dfecaced"/><section>
+    <title>__construct()</title>
+<indexterm><primary>__construct</primary><secondary>HttpHeader</secondary></indexterm>
+<indexterm><primary>HttpHeader</primary><secondary>__construct</secondary></indexterm>
+<para><computeroutput>__construct ( $sName,  $aValues = <computeroutput>[]</computeroutput>
+)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>string</entry><entry>$sName</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+<entry>mixed[]</entry><entry>$aValues</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>$this </para>
+</formalpara>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_http_1_1_http_header_1a2e6311cb2a31df623532c15288212d96"/><section>
+    <title>addValue()</title>
+<indexterm><primary>addValue</primary><secondary>HttpHeader</secondary></indexterm>
+<indexterm><primary>HttpHeader</primary><secondary>addValue</secondary></indexterm>
+<para><computeroutput>addValue ( $sValue)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>string</entry><entry>$sValue</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>$this </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_http_1_1_http_header_1a614834f1605e407376028e8c82298c82"/><section>
+    <title>getHeader()</title>
+<indexterm><primary>getHeader</primary><secondary>HttpHeader</secondary></indexterm>
+<indexterm><primary>HttpHeader</primary><secondary>getHeader</secondary></indexterm>
+<para><computeroutput>getHeader ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>string </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_http_1_1_http_header_1a3d0963e68bb313b163a73f2803c64600"/><section>
+    <title>getName()</title>
+<indexterm><primary>getName</primary><secondary>HttpHeader</secondary></indexterm>
+<indexterm><primary>HttpHeader</primary><secondary>getName</secondary></indexterm>
+<para><computeroutput>getName ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>string </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_http_1_1_http_header_1a70a0fe08035189260c72e32a9e20d30c"/><section>
+    <title>getValues()</title>
+<indexterm><primary>getValues</primary><secondary>HttpHeader</secondary></indexterm>
+<indexterm><primary>HttpHeader</primary><secondary>getValues</secondary></indexterm>
+<para><computeroutput>getValues ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>mixed[] </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_http_1_1_http_header_1ad93b9b00cb78288df05e5ed9dc26698c"/><section>
+    <title>setName()</title>
+<indexterm><primary>setName</primary><secondary>HttpHeader</secondary></indexterm>
+<indexterm><primary>HttpHeader</primary><secondary>setName</secondary></indexterm>
+<para><computeroutput>setName ( $sName)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>string</entry><entry>$sName</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>$this </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_http_1_1_http_header_1a35d73ab9f6cdbb3a154f424ce8b92ffd"/><section>
+    <title>setValues()</title>
+<indexterm><primary>setValues</primary><secondary>HttpHeader</secondary></indexterm>
+<indexterm><primary>HttpHeader</primary><secondary>setValues</secondary></indexterm>
+<para><computeroutput>setValues ( $aValues)</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/xampp/htdocs/async/phzasync/src/Http/<link linkend="__http_header_8php">HttpHeader.php</link></section>
+</section>

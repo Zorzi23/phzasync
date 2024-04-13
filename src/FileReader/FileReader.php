@@ -12,10 +12,15 @@ class FileReader {
 
     /**
      * 
-     * @var \FileReader\IFileReaderStrategy
+     * @var FileReaderStrategy
      */
     private $oStrategy;
 
+    /**
+     * 
+     * @param string $sFilePath
+     * @param FileReaderStrategy $oStrategy
+     */
     public function __construct($sFilePath, $oStrategy) {
         $this->setFilePath($sFilePath)->setStrategy($oStrategy);
     }
@@ -38,11 +43,19 @@ class FileReader {
         return $this;
     }
 
+    /**
+     * 
+     * @return $this
+     */
     public function setStrategy($oStrategy) {
         $this->oStrategy = $oStrategy;
         return $this;
     }
 
+    /**
+     * 
+     * @return mixed
+     */
     public function read() {
         return $this->oStrategy->read($this->getFilePath());
     }

@@ -1,0 +1,36 @@
+\doxysection{Async\+Task\+Options\+Reader Class Reference}
+\hypertarget{class_async_1_1_async_task_options_reader}{}\label{class_async_1_1_async_task_options_reader}\index{AsyncTaskOptionsReader@{AsyncTaskOptionsReader}}
+
+
+Inheritance diagram for Async\+Task\+Options\+Reader\+:
+% FIG 0
+
+
+Collaboration diagram for Async\+Task\+Options\+Reader\+:
+% FIG 1
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_async_1_1_async_task_options_reader_aac668d06cab09cb383b988d3119c8ede}{read}} (\$s\+File\+Path)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_async_1_1_async_task_options_reader_aac668d06cab09cb383b988d3119c8ede}\label{class_async_1_1_async_task_options_reader_aac668d06cab09cb383b988d3119c8ede} 
+\index{AsyncTaskOptionsReader@{AsyncTaskOptionsReader}!read@{read}}
+\index{read@{read}!AsyncTaskOptionsReader@{AsyncTaskOptionsReader}}
+\doxysubsubsection{\texorpdfstring{read()}{read()}}
+{\footnotesize\ttfamily read (\begin{DoxyParamCaption}\item[{}]{\$s\+File\+Path }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Async\+Task\+Options 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_file_reader_1_1_file_reader_strategy_aac668d06cab09cb383b988d3119c8ede}{File\+Reader\+Strategy}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/xampp/htdocs/async/phzasync/src/\+Async/\mbox{\hyperlink{_async_task_options_reader_8php}{Async\+Task\+Options\+Reader.\+php}}\end{DoxyCompactItemize}

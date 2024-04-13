@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_file_reader_1_1_strategy_specific_lines_reader" xml:lang="en-US">
+<title>StrategySpecificLinesReader Class Reference</title>
+<indexterm><primary>StrategySpecificLinesReader</primary></indexterm>
+Inheritance diagram for StrategySpecificLinesReader:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_file_reader_1_1_strategy_specific_lines_reader__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for StrategySpecificLinesReader:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_file_reader_1_1_strategy_specific_lines_reader__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_file_reader_1_1_strategy_specific_lines_reader_1a93b5f2fdfbf189a70dd40a4a58b4de3e">__construct</link> ($iStartLine, $iEndLine)</para>
+</listitem>
+            <listitem><para><link linkend="_class_file_reader_1_1_strategy_specific_lines_reader_1a0c5336ffcf8d85709d6f212bd49c7bb4">getStartLine</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_file_reader_1_1_strategy_specific_lines_reader_1a35e0ed9217ec2ead8581fc09cd457415">setStartLine</link> ($iStartLine)</para>
+</listitem>
+            <listitem><para><link linkend="_class_file_reader_1_1_strategy_specific_lines_reader_1a7ad149e4075bba710a8933065263fe0e">getEndLine</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_file_reader_1_1_strategy_specific_lines_reader_1a1cc85372f1c3988a9d796ec037eb9705">setEndLine</link> ($iEndLine)</para>
+</listitem>
+            <listitem><para><link linkend="_class_file_reader_1_1_strategy_specific_lines_reader_1aac668d06cab09cb383b988d3119c8ede">read</link> ($sFilePath)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_file_reader_1_1_strategy_specific_lines_reader_1a93b5f2fdfbf189a70dd40a4a58b4de3e"/><section>
+    <title>__construct()</title>
+<indexterm><primary>__construct</primary><secondary>StrategySpecificLinesReader</secondary></indexterm>
+<indexterm><primary>StrategySpecificLinesReader</primary><secondary>__construct</secondary></indexterm>
+<para><computeroutput>__construct ( $iStartLine,  $iEndLine)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>int</entry><entry>$iStartLine</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+<entry>int</entry><entry>$iEndLine</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>$this </para>
+</formalpara>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_file_reader_1_1_strategy_specific_lines_reader_1a7ad149e4075bba710a8933065263fe0e"/><section>
+    <title>getEndLine()</title>
+<indexterm><primary>getEndLine</primary><secondary>StrategySpecificLinesReader</secondary></indexterm>
+<indexterm><primary>StrategySpecificLinesReader</primary><secondary>getEndLine</secondary></indexterm>
+<para><computeroutput>getEndLine ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>int </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_file_reader_1_1_strategy_specific_lines_reader_1a0c5336ffcf8d85709d6f212bd49c7bb4"/><section>
+    <title>getStartLine()</title>
+<indexterm><primary>getStartLine</primary><secondary>StrategySpecificLinesReader</secondary></indexterm>
+<indexterm><primary>StrategySpecificLinesReader</primary><secondary>getStartLine</secondary></indexterm>
+<para><computeroutput>getStartLine ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>int </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_file_reader_1_1_strategy_specific_lines_reader_1aac668d06cab09cb383b988d3119c8ede"/><section>
+    <title>read()</title>
+<indexterm><primary>read</primary><secondary>StrategySpecificLinesReader</secondary></indexterm>
+<indexterm><primary>StrategySpecificLinesReader</primary><secondary>read</secondary></indexterm>
+<para><computeroutput>read ( $sFilePath)</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>string </para>
+</formalpara>
+</para>
+<para>
+Implements <link linkend="_interface_file_reader_1_1_file_reader_strategy_1aac668d06cab09cb383b988d3119c8ede">FileReaderStrategy</link>.</para>
+</section>
+<anchor xml:id="_class_file_reader_1_1_strategy_specific_lines_reader_1a1cc85372f1c3988a9d796ec037eb9705"/><section>
+    <title>setEndLine()</title>
+<indexterm><primary>setEndLine</primary><secondary>StrategySpecificLinesReader</secondary></indexterm>
+<indexterm><primary>StrategySpecificLinesReader</primary><secondary>setEndLine</secondary></indexterm>
+<para><computeroutput>setEndLine ( $iEndLine)</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>$this </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_file_reader_1_1_strategy_specific_lines_reader_1a35e0ed9217ec2ead8581fc09cd457415"/><section>
+    <title>setStartLine()</title>
+<indexterm><primary>setStartLine</primary><secondary>StrategySpecificLinesReader</secondary></indexterm>
+<indexterm><primary>StrategySpecificLinesReader</primary><secondary>setStartLine</secondary></indexterm>
+<para><computeroutput>setStartLine ( $iStartLine)</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>$this </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/xampp/htdocs/async/phzasync/src/FileReader/<link linkend="__strategy_specific_lines_reader_8php">StrategySpecificLinesReader.php</link></section>
+</section>

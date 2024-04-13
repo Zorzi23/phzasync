@@ -11,10 +11,6 @@ class AsyncTaskRoute {
      * @return void
      */
     public function fetchProcesses() {
-        if(!self::getProcess()) {
-            http_response_code(404);
-            die;
-        }
         if(self::getMaxExecutionTime()) {
             ini_set('max_execution_time', self::getMaxExecutionTime());
         }

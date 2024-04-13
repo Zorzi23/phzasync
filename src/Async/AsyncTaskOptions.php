@@ -30,6 +30,24 @@ class AsyncTaskOptions {
 
     /**
      * 
+     * @var string
+     */
+    private $sAsyncExecutionEndpointDir;
+
+    /**
+     * 
+     * @var string
+     */
+    private $sAsyncLibDir;
+
+    /**
+     * 
+     * @var string
+     */
+    private $sAsyncExecutionProcessFile;
+
+    /**
+     * 
      * @param bool $bIgnoreUserAbort
      */
     public function setIgnoreUserAbort($bIgnoreUserAbort) {
@@ -96,6 +114,76 @@ class AsyncTaskOptions {
     public function setAsyncExecutionEndpoint($sEndpoint) {
         $this->sAsyncExecutionEndpoint = $sEndpoint;
         return $this;
+    }
+
+    /**
+     *
+     * @return string
+     */
+    public function getAsyncExecutionEndpointDir() {
+        return $this->sAsyncExecutionEndpointDir;
+    }
+
+    /**
+     *
+     * @param string $sFile
+     * @return $this
+     */
+    public function setAsyncExecutionEndpointDir($sDir) {
+        $this->sAsyncExecutionEndpointDir = $sDir;
+        return $this;
+    }
+
+    /**
+     *
+     * @return string
+     */
+    public function getAsyncExecutionProcessFile() {
+        return $this->sAsyncExecutionProcessFile;
+    }
+
+    /**
+     *
+     * @param string $sFile
+     * @return $this
+     */
+    public function setAsyncExecutionProcessFile($sFile) {
+        $this->sAsyncExecutionProcessFile = $sFile;
+        return $this;
+    }
+
+        /**
+     *
+     * @return string
+     */
+    public function getAsyncLibDir() {
+        return $this->sAsyncLibDir;
+    }
+
+    /**
+     *
+     * @param string $sFile
+     * @return $this
+     */
+    public function setAsyncLibDir($sDir) {
+        $this->sAsyncLibDir = $sDir;
+        return $this;
+    }
+
+    /**
+     *
+     * @return string
+     */
+    public function getFullPathAsyncExecutionProcessFile() {
+        return $this->getAsyncExecutionEndpointDir().$this->getAsyncExecutionProcessFile();
+    }
+
+    /**
+     *
+     * @return string
+     */
+    public function getFullPathEndpointAsyncExecutionProcessFile() {
+        return $this->getAsyncExecutionEndpoint().$this->getAsyncExecutionProcessFile();
     }
 
 }

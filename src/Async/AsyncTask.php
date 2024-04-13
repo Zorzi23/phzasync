@@ -110,10 +110,11 @@ class AsyncTask {
 
     private function awaitRequestExecutionBuffer() {
         foreach($this->getTasks() as $oTask) {
+            $this->createAsyncExecFile();
             $sFileProcess = self::createExecutionFile($oTask);  
-            file_put_contents('test.txt', $this->getOptions()->getAsyncExecutionEndpoint());
-            $oRequest = new HttpRequest($this->getOptions()->getAsyncExecutionEndpoint(), 'POST');
+            $oRequest = new HttpRequest($this->getOptions()->getFullPathEndpointAsyncExecutionProcessFile(), 'POST');
             $oRequest->setTimeout(0);
+            $oRequest->addData(dirname(__DIR__), 'background_execution_dir');
             $oRequest->addData($sFileProcess, 'process');
             $oRequest->addData($this->getOptions()->getMaxExecutionTime(), 'max_execution_time');
             $oRequest->fetch();
@@ -198,6 +199,20 @@ class AsyncTask {
      */
     private static function createDefaultOptions() {
         return (new AsyncTaskOptionsReader())->read(dirname(__DIR__).'\config\config.json');
+    }
+
+    /**
+     * 
+     * 
+     * @return $this
+     */
+    private function createAsyncExecFile() {
+        file_put_contents($this->getOptions()->getFullPathAsyncExecutionProcessFile(), $this->createAsyncExecContent());
+        return $this;
+    }
+
+    private function createAsyncExecContent() {
+        return file_get_contents(__DIR__.'/AsyncBackgroundExecution.php');
     }
 
 }

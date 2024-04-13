@@ -1,5 +1,8 @@
 {
     "ignoreUserAbort": true,
     "maxExecutionTime": 30,
-    "asyncEndpointDir": "http://localhost/async/"
+    "asyncExecProcessFile": "phzasync_exec_process.php",
+    "asyncEndpointDir": "../tests/",
+    "asyncEndpoint": "http://localhost/async/phzasync/tests/",
+    "asyncLibDir": "../src/"
 }
